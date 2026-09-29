@@ -1,0 +1,18 @@
+{
+  "name": "mochi-translate",
+  "version": "0.1.0",
+  "description": "Translate selected text using a separate session of the local signed-in Codex.",
+  "author": {
+    "name": "Mochi"
+  },
+  "interface": {
+    "displayName": "Mochi 翻译",
+    "shortDescription": "Translate text in an independent Codex session.",
+    "longDescription": "A local MCP translation tool with a Chrome selection context menu. Each translation uses an ephemeral Codex session and the existing login.",
+    "developerName": "Mochi",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": ["Translate the text I provide into Simplified Chinese."]
+  },
+  "mcpServers": "./.mcp.json"
+}

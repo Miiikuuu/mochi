@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mochi 翻译</title>
+<link rel="stylesheet" href="result.css">
+<body>
+<header><span class="mark" aria-hidden="true">M</span><div><h1>Mochi 翻译</h1><p>读懂你选中的那一段</p></div></header>
+<main>
+  <div class="row"><label for="target">翻译成</label><select id="target">
+    <option value="zh-CN">简体中文</option><option value="en">English</option>
+    <option value="ja">日本語</option><option value="ko">한국어</option>
+    <option value="fr">Français</option><option value="de">Deutsch</option><option value="es">Español</option>
+  </select></div>
+  <div class="row model-row"><label for="model">翻译模型</label><select id="model">
+    <option value="gpt-5.6-luna">日常 · Luna</option>
+    <option value="gpt-6-astra">精译 · Astra</option>
+  </select></div>
+  <label for="source" class="caption">原文</label>
+  <textarea id="source" maxlength="12000" placeholder="在网页选中文字，右键选择「用 Mochi 翻译」，也可以在这里粘贴。" spellcheck="false"></textarea>
+  <div class="row controls"><span id="count">0 / 12000</span><button id="translate">翻译</button><button id="cancel" hidden>取消</button></div>
+  <section aria-label="译文"><div class="row"><h2>译文</h2><button id="copy" disabled class="subtle">复制译文</button></div>
+    <p id="status" role="status" aria-live="polite">等待选择文字</p>
+    <div id="result" dir="auto"></div>
+  </section>
+  <p id="error" role="alert" hidden></p>
+  <p id="setup" hidden>本地连接尚未就绪。请运行项目中的 <code>scripts/install-mochi-translate.sh</code>，然后重试。</p>
+</main>
+<footer>仅发送本次选中文字 · 使用你的 Codex 额度 · 每次独立会话</footer>
+<script src="result.js" type="module"></script>
+</body></html>

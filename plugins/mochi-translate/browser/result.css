@@ -1,0 +1,34 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; color: #29352f; background: #f7f8f4; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 25px; min-width: 300px; }
+header { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+.mark { display: grid; place-items: center; background: #235b46; color: white; width: 42px; height: 42px; border-radius: 14px; font-weight: 800; font-size: 22px; }
+h1 { font-size: 20px; margin: 0 0 3px; letter-spacing: -.4px; }
+header p, footer { font-size: 12px; color: #738079; margin: 0; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 9px; }
+.model-row { margin-top: 10px; }
+label { font-size: 13px; font-weight: 600; }
+select { padding: 8px 10px; color: inherit; background: white; border: 1px solid #dce3da; border-radius: 9px; }
+.caption { display: block; margin: 18px 0 9px; color: #617169; }
+textarea { width: 100%; min-height: 110px; max-height: 280px; padding: 12px; resize: vertical; border: 1px solid #dce3da; border-radius: 12px; background: white; color: inherit; font: inherit; font-size: 14px; line-height: 1.7; }
+textarea:focus, select:focus, button:focus-visible { outline: 2px solid #549a7b; outline-offset: 2px; }
+.controls { margin: 10px 0 22px; }
+#count { flex: 1; font-size: 11px; color: #7a857f; }
+button { border: 0; border-radius: 9px; padding: 9px 15px; background: #235b46; color: white; cursor: pointer; font: inherit; font-size: 13px; }
+button:disabled { opacity: .4; cursor: default; }
+button.subtle, #cancel { background: #e5ece4; color: #375545; }
+section { padding: 16px; min-height: 150px; border: 1px solid #dde7dc; border-radius: 14px; background: #edf3e9; }
+h2 { font-size: 13px; margin: 0; color: #42684f; }
+#status { font-size: 12px; color: #71816f; margin: 15px 0 6px; }
+#result { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 16px; line-height: 1.85; }
+#error { padding: 12px; background: #f8e7e1; color: #943f30; border-radius: 9px; font-size: 13px; overflow-wrap: anywhere; }
+#setup { font-size: 12px; line-height: 1.7; }
+footer { margin-top: 18px; line-height: 1.7; }
+[hidden] { display: none !important; }
+@media (prefers-color-scheme: dark) {
+  :root { background: #202823; color: #e3e9e2; }
+  textarea, select { background: #29332c; border-color: #455147; }
+  section { background: #28372b; border-color: #455846; }
+  h2 { color: #b8d8bd; } #status, .caption { color: #b0c0b0; }
+  footer, header p, #count { color: #a5b3a5; }
+}

@@ -1,0 +1,8 @@
+{
+  "format": 1,
+  "git_objects": [],
+  "policy_sha256": "5c84febd89a8df8e0e51fd74f4fda5a005ff4c1712579b573d5596466c48821f",
+  "source": "private-monorepo-allow-list",
+  "source_commit": "b3d7d3ebd7b986f53bd7b1e4bf68383dfa312bbb",
+  "source_date_epoch": 1790642134
+}

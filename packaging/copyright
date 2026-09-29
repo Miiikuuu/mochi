@@ -1,0 +1,19 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Mochi
+Source: https://github.com/Miiikuuu/mochi
+
+Files: *
+Copyright: 2026 Mochi contributors
+License: Apache-2.0
+ See /usr/share/common-licenses/Apache-2.0.
+
+Files: usr/share/mochi/plugins/*/node_modules/*
+Copyright: respective upstream contributors (see each package LICENSE)
+License: upstream
+ Each dependency retains its own license and copyright notice.
+ Consult the included dependency inventory and package LICENSE files.
+
+Files: usr/share/metainfo/*
+Copyright: 2026 Mochi contributors
+License: CC0-1.0
+ The AppStream metadata is dedicated to the public domain under CC0-1.0.

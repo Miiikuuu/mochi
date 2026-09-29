@@ -1,0 +1,20 @@
+.TH MOCHI-SESSIOND 1 "2026-09-28" "Mochi @VERSION@" "User Commands"
+.SH NAME
+mochi-sessiond \- maintain per-user Mochi conversation connections
+.SH SYNOPSIS
+.B mochi-sessiond
+.SH DESCRIPTION
+Owns conversation bindings, delivery state and heartbeat independently of
+the renderer. Installed sessions normally use systemd user socket activation.
+The service does not run a model or persist reply tokens or message bodies.
+.SH FILES
+.I $XDG_RUNTIME_DIR/mochi
+contains private session sockets.
+.SH DIAGNOSTICS
+Use the Manager Connections page or
+.B journalctl --user -u mochi-sessiond.service
+for service diagnostics.
+.SH SEE ALSO
+.BR mochi-manager (1),
+.BR systemctl (1),
+.BR journalctl (1)

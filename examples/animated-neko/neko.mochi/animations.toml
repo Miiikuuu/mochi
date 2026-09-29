@@ -1,0 +1,24 @@
+schema_version = 1
+default = "idle"
+
+[clips.idle]
+mode = "loop"
+frames = [
+  { asset = "sprites/frame-0.png", duration_ms = 300 },
+  { asset = "sprites/frame-1.png", duration_ms = 300 },
+]
+
+[clips.walk]
+mode = "loop"
+frames = [
+  { asset = "sprites/frame-0.png", duration_ms = 100 },
+  { asset = "sprites/frame-1.png", duration_ms = 100 },
+  { asset = "sprites/frame-2.png", duration_ms = 100 },
+]
+
+[clips.wave]
+mode = "once"
+frames = [
+  { asset = "sprites/frame-0.png", duration_ms = 100 },
+  { asset = "sprites/frame-2.png", duration_ms = 200 },
+]

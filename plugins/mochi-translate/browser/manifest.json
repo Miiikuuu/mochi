@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Mochi 翻译",
+  "version": "0.1.0",
+  "description": "选择文字后右键翻译，使用本机已登录的 Codex，每次独立会话。",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq5fT8RfzrgUVwEvxUOuXyRYO/ltfxDE9PAJXCcWafMiM0oVxiNrOA9UPM8wvRmz4DgCW0ZP7HPmbW4Fft+bTVVdWE+Qeh0gk6GHyfaH2sORC0HnXFbypBLUEUZFS6IZsk7FYCOBF+8OFy8vEKyaXBlY4QyRk+/dzizowbbQPTbyTtmMZG1NYKWZZ54l/UW5JTQLYUbmjsFmZ7DCcN69VMnM+zQjL3BJkEP+Y+ganRQ+VY5nBMUEXjYiVLzb6Nk9Cx39cA9GsF564jd10ZlgaQkblWQWXSNH4uCxlUnIVa9G2Q7sC9DYcmvUA+2Kpo5+D14g5q7qojUodv4D79ebXawIDAQAB",
+  "permissions": [
+    "contextMenus",
+    "nativeMessaging",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Mochi 翻译"
+  }
+}

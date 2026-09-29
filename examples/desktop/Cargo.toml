@@ -1,0 +1,31 @@
+[package]
+name = "mochi-desktop"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish = false
+
+[target.'cfg(target_os = "linux")'.dependencies]
+mochi-core.workspace = true
+mochi-package.workspace = true
+mochi-host.workspace = true
+mochi-preview.workspace = true
+mochi-renderer-software = { workspace = true, features = ["gpu"] }
+x11rb = { version = "=0.13.2", features = ["render", "shape", "randr", "xkb", "extra-traits"] }
+rustix = { version = "1.1", features = ["event"] }
+xcursor = "=0.3.11"
+dbus = "=0.9.12"
+serde_json = "1"
+
+[features]
+default = []
+spine = ["mochi-package/spine", "mochi-renderer-software/spine", "dep:mochi-spine"]
+gpu-test-hooks = ["mochi-renderer-software/gpu-test-hooks"]
+input-test-hooks = []
+
+[dependencies]
+mochi-spine = { workspace = true, optional = true, features = ["runtime"] }
+
+[lints]
+workspace = true

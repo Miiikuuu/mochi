@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+# Alternate-root package tests must never restart the host user services.
+[ -z "${DPKG_ROOT:-}" ] || exit 0
+if [ "$1" = remove ] && command -v loginctl >/dev/null 2>&1; then
+  loginctl list-users --no-legend 2>/dev/null | while read -r uid name rest; do
+    [ -S "/run/user/$uid/bus" ] || continue
+    runuser -u "$name" -- env XDG_RUNTIME_DIR="/run/user/$uid" DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$uid/bus" systemctl --user stop mochi-sessiond.service mochi-sessiond.socket || true
+  done
+fi

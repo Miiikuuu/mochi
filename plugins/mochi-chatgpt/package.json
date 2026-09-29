@@ -1,0 +1,23 @@
+{
+  "name": "mochi-chatgpt",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.19"
+  },
+  "scripts": {
+    "build-ui": "node build-ui.mjs",
+    "test": "node --test test/*.test.mjs",
+    "mcp": "node mcp.mjs",
+    "http": "node http.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "@modelcontextprotocol/ext-apps": "2.0.0"
+  }
+}

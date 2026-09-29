@@ -1,0 +1,18 @@
+{
+  "format": "mochi-plugin-v1",
+  "api_version": 1,
+  "id": "translation",
+  "name": "Translation",
+  "version": "0.1.0",
+  "description": "Translate selected text in a separate Codex session.",
+  "runtime": "builtin",
+  "entry": "translation_plugin:TranslationPlugin",
+  "icon": "icons/translate.svg",
+  "settings": [],
+  "i18n": {
+    "zh-CN": {
+      "name": "翻译",
+      "description": "Translate selected text in browser and desktop apps."
+    }
+  }
+}

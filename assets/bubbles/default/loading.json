@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "enabled": true,
+  "size": 32,
+  "frame_ms": 100,
+  "gap": 8,
+  "frames": [
+    "loading/01.svg",
+    "loading/02.svg",
+    "loading/03.svg",
+    "loading/04.svg",
+    "loading/05.svg",
+    "loading/06.svg",
+    "loading/07.svg",
+    "loading/08.svg"
+  ]
+}

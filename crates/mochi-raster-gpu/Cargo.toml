@@ -1,0 +1,19 @@
+[package]
+name = "mochi-raster-gpu"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+wgpu = { version = "=24.0.5", default-features = false, features = ["wgsl", "metal", "dx12"] }
+pollster = "0.4"
+bytemuck = "1"
+half = "=2.4.1"
+mochi-core.workspace = true
+
+[features]
+test-hooks = []
+
+[lints]
+workspace = true

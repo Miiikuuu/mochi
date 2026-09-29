@@ -1,0 +1,24 @@
+window.mochi-speech { background: transparent; }
+.mochi-speech-card {
+  background: #f7f8f4; color: #29352f;
+  border: 1px solid #b9cbbd; border-radius: 18px; padding: 13px 16px 11px;
+  box-shadow: 0 2px 5px alpha(#183525, 0.10);
+}
+.mochi-speech-heading { font-size: 12px; color: #63756a; }
+.mochi-speech-status { font-size: 14px; color: #63756a; }
+.mochi-speech-text, .mochi-speech-text text {
+  background: transparent; color: #29352f; font-size: 16px;
+}
+.mochi-speech-card button {
+  background: transparent; color: #37604a; border: 0; border-radius: 8px;
+  font-size: 12px; padding: 4px 7px; min-height: 0; min-width: 0;
+  box-shadow: none; text-shadow: none;
+}
+.mochi-speech-card button:hover { background: #e3eddf; }
+.mochi-speech-card button:disabled { color: #abb6ae; }
+.mochi-speech-card button.mochi-speech-close { font-size: 18px; padding: 0 5px; }
+.mochi-tail { background-size: 100% 100%; background-repeat: no-repeat; }
+.mochi-tail-bottom { background-image: url('tail-bottom.svg'); }
+.mochi-tail-top { background-image: url('tail-top.svg'); }
+.mochi-tail-left { background-image: url('tail-left.svg'); }
+.mochi-tail-right { background-image: url('tail-right.svg'); }

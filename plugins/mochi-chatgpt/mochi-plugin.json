@@ -1,0 +1,22 @@
+{
+  "format": "mochi-plugin-v1",
+  "api_version": 1,
+  "id": "chatgpt",
+  "name": "ChatGPT conversation",
+  "version": "0.2.0",
+  "description": "Connect a ChatGPT conversation to your desktop companion.",
+  "runtime": "python3",
+  "entry": "panel.py",
+  "icon": "icon.svg",
+  "capabilities": [
+    "external_messages",
+    "external_replies"
+  ],
+  "settings": [],
+  "i18n": {
+    "zh-CN": {
+      "name": "ChatGPT",
+      "description": "Display replies from a connected ChatGPT conversation in the primary character's bubble."
+    }
+  }
+}

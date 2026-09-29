@@ -1,0 +1,37 @@
+schema_version = 1
+
+[[rules]]
+on = { event = "pointer_enter" }
+actions = [
+  { type = "play_animation", name = "walk" },
+  { type = "set_current_state", name = "hover" },
+]
+
+[[rules]]
+on = { event = "pointer_click", button = 1 }
+when_state = "hover"
+actions = [
+  { type = "play_animation", name = "wave" },
+  { type = "set_current_state", name = "greeting" },
+  { type = "emit_event", name = "neko.greeted", payload = { source = "click" } },
+]
+
+[[rules]]
+on = { event = "custom", name = "neko.greeted" }
+actions = [{ type = "set_state", key = "neko.mood", value = "happy" }]
+
+[[rules]]
+on = { event = "timer", id = "neko.replay" }
+when_state = "greeting"
+actions = [{ type = "emit_event", name = "mochi.animation.restart", payload = {} }]
+
+[[rules]]
+on = { event = "custom", name = "git.dirty" }
+actions = [{ type = "set_state", key = "git.dirty", value = true }]
+
+[[rules]]
+on = { event = "pointer_leave" }
+actions = [
+  { type = "play_animation", name = "idle" },
+  { type = "set_current_state", name = "idle" },
+]

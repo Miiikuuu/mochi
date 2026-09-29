@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.mochi.Manager</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  <name>Mochi Manager</name>
+  <developer id="io.mochi"><name>Mochi contributors</name></developer>
+  <summary>Manage desktop companions and conversation connections</summary>
+  <description><p>Mochi organizes character themes, bubble materials and optional local features. Saved theme edits are applied to the desktop only when you choose Apply.</p></description>
+  <launchable type="desktop-id">io.mochi.Manager.desktop</launchable>
+  <url type="homepage">https://github.com/Miiikuuu/mochi</url>
+  <url type="bugtracker">https://github.com/Miiikuuu/mochi/issues</url>
+  <provides><binary>mochi-manager</binary></provides>
+  <content_rating type="oars-1.1"/>
+  <releases><release version="@VERSION@" date="2026-09-28" type="development"/></releases>
+</component>

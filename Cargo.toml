@@ -1,0 +1,38 @@
+[workspace]
+members = ["crates/*", "examples/desktop", "tests"]
+default-members = ["examples/desktop"]
+exclude = ["examples/plugins"]
+resolver = "2"
+
+[workspace.package]
+version = "0.9.1"
+edition = "2021"
+rust-version = "1.85"
+license = "Apache-2.0"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+semver = { version = "1", features = ["serde"] }
+# Preserve Rust 1.85 support and the delivered codec behavior; review upgrades.
+image = { version = "=0.25.9", default-features = false, features = ["png", "jpeg", "webp"] }
+sha2 = "0.10"
+crc32fast = "1.5"
+cap-std = "4.0.3"
+cap-fs-ext = "4.0.3"
+mochi-schema = { path = "crates/mochi-schema" }
+mochi-core = { path = "crates/mochi-core" }
+mochi-runtime = { path = "crates/mochi-runtime" }
+mochi-package = { path = "crates/mochi-package" }
+mochi-platform = { path = "crates/mochi-platform" }
+mochi-broker = { path = "crates/mochi-broker" }
+mochi-renderer-software = { path = "crates/mochi-renderer-software" }
+mochi-host = { path = "crates/mochi-host" }
+mochi-preview = { path = "crates/mochi-preview" }
+mochi-spine = { path = "crates/mochi-spine" }
+# Window dependencies are consumed only by the preview executable.
+winit = { version = "=0.30.13", default-features = false, features = ["rwh_06", "x11", "wayland", "wayland-dlopen", "wayland-csd-adwaita"] }
+softbuffer = { version = "=0.4.8", default-features = false, features = ["x11", "x11-dlopen", "wayland", "wayland-dlopen"] }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"

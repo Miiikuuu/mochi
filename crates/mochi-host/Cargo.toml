@@ -1,0 +1,15 @@
+[package]
+name = "mochi-host"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+mochi-core.workspace = true
+mochi-runtime.workspace = true
+mochi-package.workspace = true
+mochi-broker.workspace = true
+
+[lints]
+workspace = true

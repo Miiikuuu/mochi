@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Mochi Manager
+Comment=Manage desktop companions, themes and connections
+Exec=mochi-manager
+Icon=io.mochi.Manager
+Terminal=false
+Categories=Utility;
+StartupNotify=true
+StartupWMClass=io.mochi.Manager

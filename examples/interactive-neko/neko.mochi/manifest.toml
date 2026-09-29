@@ -1,0 +1,18 @@
+schema_version = 1
+id = "mochi.interactive-neko"
+name = "Interactive Neko (diagnostic sprites)"
+version = "0.8.0"
+capabilities = []
+permissions = []
+
+[[components]]
+id = "mochi.behavior.rules"
+[components.config]
+file = "rules.toml"
+
+[[components]]
+id = "mochi.appearance.animated-sprite"
+[components.config]
+file = "animations.toml"
+width = 32.0
+height = 32.0

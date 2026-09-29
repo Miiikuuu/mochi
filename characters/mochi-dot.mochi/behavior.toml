@@ -1,0 +1,4 @@
+schema_version = 1
+min_x = 0.0
+max_x = 100.0
+speed = 10.0

@@ -1,0 +1,12 @@
+[package]
+name="mochi-spine"
+version.workspace=true
+edition.workspace=true
+license.workspace=true
+[dependencies]
+[features]
+default=[]
+runtime=[]
+spine=["runtime"]
+[lints]
+workspace=true

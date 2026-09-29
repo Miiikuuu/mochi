@@ -1,0 +1,27 @@
+[package]
+name = "mochi-package"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json = "1"
+toml.workspace = true
+mochi-schema.workspace = true
+mochi-core.workspace = true
+mochi-runtime.workspace = true
+mochi-spine = { workspace = true, optional = true, features = ["runtime"] }
+image.workspace = true
+sha2.workspace = true
+crc32fast.workspace = true
+cap-std.workspace = true
+cap-fs-ext.workspace = true
+
+[features]
+default = []
+spine = ["dep:mochi-spine"]
+
+[lints]
+workspace = true

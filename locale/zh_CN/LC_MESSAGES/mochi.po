@@ -1,0 +1,716 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Themes"
+msgstr "主题"
+
+msgid "Library"
+msgstr "资源库"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Characters"
+msgstr "角色"
+
+msgid "Assets"
+msgstr "素材"
+
+msgid "Plugins"
+msgstr "插件"
+
+msgid "Running"
+msgstr "运行中"
+
+msgid "Stopped"
+msgstr "已停止"
+
+msgid "Runtime disconnected"
+msgstr "运行端已断开"
+
+msgid "Degraded"
+msgstr "部分角色已停止"
+
+msgid "Restart"
+msgstr "重新启动"
+
+msgid "Theme changed in another window."
+msgstr "主题已在另一窗口中更改。"
+
+msgid "Translation settings changed in another window."
+msgstr "翻译设置已在另一窗口中更改。"
+
+msgid "Theme updated in another window. Your draft is kept."
+msgstr "主题已在另一窗口中更新；当前草稿已保留。"
+
+msgid "Use latest"
+msgstr "使用最新设置"
+
+msgid "Keep mine"
+msgstr "保留我的设置"
+
+msgid "Compare"
+msgstr "比较"
+
+msgid "Compare translation settings"
+msgstr "比较翻译设置"
+
+msgid "Mine"
+msgstr "我的设置"
+
+msgid "Latest"
+msgstr "最新设置"
+
+msgid "Theme changed in another window"
+msgstr "主题已在另一窗口中更改"
+
+msgid "Your edits are still here. Choose how to resolve the newer saved version."
+msgstr "当前草稿仍在。请选择如何处理磁盘上的新版本。"
+
+msgid "Reload latest"
+msgstr "重新加载最新版"
+
+msgid "Save as new Theme"
+msgstr "另存为新主题"
+
+msgid "Keep editing"
+msgstr "继续编辑"
+
+msgid "Behavior"
+msgstr "行为"
+
+msgid "Set as primary"
+msgstr "设为主角色"
+
+msgid "Move up"
+msgstr "上移"
+
+msgid "Move down"
+msgstr "下移"
+
+msgid "Disable character"
+msgstr "禁用角色"
+
+msgid "Add character"
+msgstr "添加角色"
+
+msgid "Up to four characters per Theme."
+msgstr "每个主题最多四名角色。"
+
+msgid "Character size"
+msgstr "角色尺寸"
+
+msgid "Character size: %d px"
+msgstr "角色尺寸：%d 像素"
+
+msgid "Idle timeout"
+msgstr "待机等待时间"
+
+msgid "A Theme needs at least one character."
+msgstr "每个主题至少需要一名角色。"
+
+msgid "Cannot move this character."
+msgstr "无法移动该角色。"
+
+msgid "Closing when task finishes…"
+msgstr "任务完成后关闭…"
+
+msgid "%s is running"
+msgstr "%s 正在运行"
+
+msgid "Apply changes"
+msgstr "应用更改"
+
+msgid "Switch to this theme"
+msgstr "切换到此主题"
+
+msgid "Start theme"
+msgstr "启动主题"
+
+msgid "Keep open"
+msgstr "保持窗口打开"
+
+msgid "Close when finished"
+msgstr "完成后关闭"
+
+msgid "Cancel queued tasks and close"
+msgstr "取消排队任务并关闭"
+
+msgid "Cancel lookup and close"
+msgstr "取消查询并关闭"
+
+msgid "Mochi is still working"
+msgstr "Mochi 仍在处理任务"
+
+msgid "The selected theme is missing."
+msgstr "所选主题不存在。"
+
+msgid "Could not save the theme."
+msgstr "无法保存主题。"
+
+msgid "The desktop runtime disconnected."
+msgstr "桌宠运行端已断开。"
+
+msgid "The desktop runtime command failed."
+msgstr "桌宠运行命令失败。"
+
+msgid "Could not reach the desktop runtime."
+msgstr "无法连接桌宠运行端。"
+
+msgid "The import package is invalid."
+msgstr "导入包无效。"
+
+msgid "The import file is missing."
+msgstr "导入文件不存在。"
+
+msgid "The import failed."
+msgstr "导入失败。"
+
+msgid "Theme imported, but it could not be selected."
+msgstr "主题已导入，但未能切换到该主题。"
+
+msgid "Import completed, but the resource list could not be refreshed."
+msgstr "导入已完成，但资源目录未能刷新。"
+
+msgid "Theme saved, but the resource list could not be refreshed."
+msgstr "主题已保存，但资源目录未能刷新。"
+
+msgid "Details"
+msgstr "详细信息"
+
+msgid "Operation failed."
+msgstr "操作失败。"
+
+msgid "Requested item was not found."
+msgstr "请求的项目不存在。"
+
+msgid "Retry connection"
+msgstr "重试连接"
+
+msgid "Undo"
+msgstr "撤销"
+
+msgid "Cast updated"
+msgstr "角色阵容已更新"
+
+msgid "Disabled"
+msgstr "已禁用"
+
+msgid "%s slider"
+msgstr "%s滑块"
+
+msgid "PRIMARY"
+msgstr "主角色"
+
+msgid "Undo expired; the current Theme was not changed."
+msgstr "撤销已失效，当前主题未被更改。"
+
+msgid "Feature updated"
+msgstr "功能已更新"
+
+msgid "Bubble"
+msgstr "气泡"
+
+msgid "Features"
+msgstr "功能"
+
+msgid "Choose the material used for speech and replies."
+msgstr "选择对话与回复使用的气泡素材。"
+
+msgid "Sample messages only; this does not start the desktop pet."
+msgstr "这里仅预览示例消息，不会启动桌宠。"
+
+msgid "Messages"
+msgstr "消息"
+
+msgid "%d sample messages"
+msgstr "%d 条示例消息"
+
+msgid "A little thought from Mochi."
+msgstr "Mochi 的一条小消息。"
+
+msgid "Can you tell me more?"
+msgstr "可以再说一些吗？"
+
+msgid "Of course — here is the next note."
+msgstr "当然，这是下一条消息。"
+
+msgid "Your reply…"
+msgstr "你的回复…"
+
+msgid "Thinking…"
+msgstr "思考中…"
+
+msgid "Saved Bubble changes wait for Apply."
+msgstr "气泡修改已保存，等待应用。"
+
+msgid "Choose what this Theme can do."
+msgstr "选择这个主题可以使用的功能。"
+
+msgid "Enabled features"
+msgstr "已启用功能"
+
+msgid "Available features"
+msgstr "可用功能"
+
+msgid "Feature changes wait for Apply."
+msgstr "功能修改已保存，等待应用。"
+
+msgid "Translation settings"
+msgstr "翻译设置"
+
+msgid "Target language"
+msgstr "目标语言"
+
+msgid "Model ID"
+msgstr "模型 ID"
+
+msgid "Model"
+msgstr "模型"
+
+msgid "Fast"
+msgstr "快速"
+
+msgid "Chinese (Simplified)"
+msgstr "简体中文"
+
+msgid "English"
+msgstr "英语"
+
+msgid "Japanese"
+msgstr "日语"
+
+msgid "Korean"
+msgstr "韩语"
+
+msgid "French"
+msgstr "法语"
+
+msgid "German"
+msgstr "德语"
+
+msgid "Spanish"
+msgstr "西班牙语"
+
+msgid "Unavailable"
+msgstr "不可用"
+
+msgid "Plugin unavailable."
+msgstr "插件不可用。"
+
+msgid "Compare translation settings"
+msgstr "比较翻译设置"
+
+msgid "Mine"
+msgstr "我的版本"
+
+msgid "Latest"
+msgstr "最新版本"
+
+msgid "Approve and enable plugin?"
+msgstr "批准并启用插件？"
+
+msgid "Approve and enable"
+msgstr "批准并启用"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Runtime"
+msgstr "运行方式"
+
+msgid "Capabilities"
+msgstr "能力"
+
+msgid "Isolation"
+msgstr "权限隔离"
+
+msgid "None"
+msgstr "无"
+
+msgid "Runs with your user permissions."
+msgstr "以你的用户权限运行。"
+
+msgid "bundled"
+msgstr "内置"
+
+msgid "local"
+msgstr "本地"
+
+msgid "unreviewed"
+msgstr "未审批"
+
+msgid "approved"
+msgstr "已审批"
+
+msgid "sandboxed"
+msgstr "已沙箱隔离"
+
+msgid "unsandboxed"
+msgstr "未沙箱隔离"
+
+msgid "Could not refresh the resource catalog."
+msgstr "无法刷新资源目录。"
+
+msgid "Review and approve this plugin before enabling it."
+msgstr "启用此插件前，请先检查并批准。"
+
+msgid "Could not approve the plugin. Review its current package."
+msgstr "无法批准插件，请检查当前插件包。"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Needs review"
+msgstr "待审核"
+
+msgid "In use"
+msgstr "使用中"
+
+msgid "Unused"
+msgstr "未使用"
+
+msgid "Updates"
+msgstr "更新"
+
+msgid "Resource filter"
+msgstr "资源筛选"
+
+msgid "Search resources"
+msgstr "搜索资源"
+
+msgid "Sort resources"
+msgstr "资源排序"
+
+msgid "Name A–Z"
+msgstr "名称升序"
+
+msgid "Name Z–A"
+msgstr "名称降序"
+
+msgid "Most used"
+msgstr "使用最多"
+
+msgid "Import Character"
+msgstr "导入角色"
+
+msgid "Import Bubble"
+msgstr "导入气泡"
+
+msgid "Import Plugin"
+msgstr "导入插件"
+
+msgid "Copy SHA-256"
+msgstr "复制完整 SHA-256"
+
+msgid "Security Details"
+msgstr "安全详情"
+
+msgid "Resource actions"
+msgstr "资源操作"
+
+msgid "No matching resources."
+msgstr "没有匹配的资源。"
+
+msgid "No updates reported by this catalog."
+msgstr "资源目录尚未报告可用更新。"
+
+msgid "Resource dependencies"
+msgstr "资源依赖"
+
+msgid "Running Theme"
+msgstr "运行中的主题"
+
+msgid "Back to resources"
+msgstr "返回资源列表"
+
+msgid "Queued"
+msgstr "排队中"
+
+msgid "Validating package…"
+msgstr "正在验证资源包…"
+
+msgid "Committing resource transaction…"
+msgstr "正在提交资源事务…"
+
+msgid "Refreshing resources…"
+msgstr "正在刷新资源…"
+
+msgid "Completed"
+msgstr "已完成"
+
+msgid "Failed"
+msgstr "失败"
+
+msgid "Repair saved Themes"
+msgstr "修复已保存的主题"
+
+msgid "Apply replacement"
+msgstr "应用替代配置"
+
+msgid "Stop Theme"
+msgstr "停止主题"
+
+msgid "Stop the running Theme or Apply a replacement first."
+msgstr "请先停止运行中的主题，或应用替代配置。"
+
+msgid "Runtime connection could not be verified. Removal waits for reconnection."
+msgstr "无法确认运行时连接。重新连接后才能删除。"
+
+msgid "Repair saved Themes first. Apply the replacement or Stop Theme before final removal."
+msgstr "请先修复已保存的主题，再应用替代配置或停止主题，最后删除资源。"
+
+msgid "Pending removal"
+msgstr "待移除"
+
+msgid "Missing"
+msgstr "缺失"
+
+msgid "Finalize removal"
+msgstr "完成移除"
+
+msgid "Cancel removal"
+msgstr "取消移除"
+
+msgid "%d Saved Theme"
+msgstr "%d 个已保存 Theme"
+
+msgid "%d Saved Themes"
+msgstr "%d 个已保存 Theme"
+
+msgid "Cancelled"
+msgstr "已取消"
+
+msgid "Waiting for resource transaction"
+msgstr "正在等待资源事务"
+
+msgid "Connections"
+msgstr "连接"
+
+msgid "Connected"
+msgstr "已连接"
+
+msgid "Disconnected"
+msgstr "未连接"
+
+msgid "Conversation"
+msgstr "会话"
+
+msgid "Last heartbeat"
+msgstr "最近心跳"
+
+msgid "%d seconds ago"
+msgstr "%d 秒前"
+
+msgid "No pending reply"
+msgstr "没有待发送回复"
+
+msgid "Reply queued"
+msgstr "回复已排队"
+
+msgid "Reply delivering"
+msgstr "正在递交回复"
+
+msgid "Reply sent"
+msgstr "回复已送达"
+
+msgid "Delivery uncertain"
+msgstr "无法确认是否送达"
+
+msgid "Reply failed"
+msgstr "回复失败"
+
+msgid "Waiting for Send follow-up confirmation"
+msgstr "等待确认 Send follow-up"
+
+msgid "Runtime available"
+msgstr "Runtime 可用"
+
+msgid "Runtime unavailable"
+msgstr "Runtime 不可用"
+
+msgid "Current model"
+msgstr "当前模型"
+
+msgid "Fast supported"
+msgstr "支持 Fast"
+
+msgid "Fast capability unknown"
+msgstr "Fast 支持情况未知"
+
+msgid "Fast unavailable"
+msgstr "不支持 Fast"
+
+msgid "Loading…"
+msgstr "正在加载…"
+
+msgid "Model catalog"
+msgstr "模型目录"
+
+msgid "Last synced"
+msgstr "最近同步"
+
+msgid "Model refresh failed"
+msgstr "模型刷新失败"
+
+msgid "Listening"
+msgstr "正在监听"
+
+msgid "Last event"
+msgstr "最近事件"
+
+msgid "Plugin health"
+msgstr "插件状态"
+
+msgid "Healthy"
+msgstr "正常"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Disconnect"
+msgstr "断开连接"
+
+msgid "Diagnostics"
+msgstr "诊断"
+
+msgid "Refresh models"
+msgstr "刷新模型"
+
+msgid "Connection diagnostics"
+msgstr "连接诊断"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Appearance"
+msgstr "外观"
+
+msgid "System"
+msgstr "跟随系统"
+
+msgid "Light"
+msgstr "浅色"
+
+msgid "Dark"
+msgstr "深色"
+
+msgid "Close behavior"
+msgstr "关闭窗口时"
+
+msgid "Keep Theme running"
+msgstr "保持 Theme 运行"
+
+msgid "Stop Theme and close"
+msgstr "停止 Theme 并关闭"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Start on login"
+msgstr "登录时启动"
+
+msgid "Reduced motion"
+msgstr "减少动态效果"
+
+msgid "Log location"
+msgstr "日志位置"
+
+msgid "Reset Manager preferences"
+msgstr "重置 Manager 偏好"
+
+msgid "Reset Manager preferences?"
+msgstr "重置 Manager 偏好？"
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "Preferences reset"
+msgstr "偏好已重置"
+
+msgid "Resets appearance, login, language and saved Translation drafts. Themes and resources are kept."
+msgstr "重置外观、登录启动、语言和已保存的翻译草稿。保留 Theme 与资源。"
+
+msgid "Recover a model ID"
+msgstr "恢复模型 ID"
+
+msgid "Codex notifications"
+msgstr "Codex 提醒"
+
+msgid "Available models"
+msgstr "可用模型"
+
+msgid "Theme runtime"
+msgstr "Theme 运行状态"
+
+msgid "Open Manager on login"
+msgstr "登录时打开 Manager"
+
+msgid "Reduce Manager motion"
+msgstr "减少 Manager 动画"
+
+msgid "Just now"
+msgstr "刚刚"
+
+msgid "%d minutes ago"
+msgstr "%d 分钟前"
+
+msgid "%d hours ago"
+msgstr "%d 小时前"
+
+msgid "%d days ago"
+msgstr "%d 天前"
+
+msgid "Repaired Theme references are not restored."
+msgstr "不会恢复已修复的 Theme 引用。"
+
+msgid "Makes the resource available again. Repaired Theme references are not restored."
+msgstr "重新开放此资源，但不会恢复已修复的 Theme 引用。"
+
+msgid "Replace this resource in saved Themes before applying."
+msgstr "应用前请替换已保存 Theme 中的此资源。"
+
+msgid "Missing character. Add a replacement, then disable this character."
+msgstr "角色缺失。请添加替代角色，再禁用此角色。"
+
+msgid "Pending removal. Replace or disable this character before Apply."
+msgstr "角色待移除。应用前请替换或禁用此角色。"
+
+msgid "This Bubble is missing or pending removal. Choose an installed replacement before Apply."
+msgstr "此气泡缺失或待移除。应用前请选择已安装的替代气泡。"
+
+msgid "Resources need repair"
+msgstr "资源需要修复"
+
+msgid "Locate, replace or remove unavailable resources before Apply."
+msgstr "应用之前，请定位、替换或移除不可用的资源。"
+
+msgid "Repair characters"
+msgstr "修复角色"
+
+msgid "Repair Bubble"
+msgstr "修复气泡"
+
+msgid "Repair features"
+msgstr "修复功能"
+
+msgid "Missing Character"
+msgstr "角色缺失"
+
+msgid "Missing Bubble"
+msgstr "气泡缺失"
+
+msgid "Missing Plugin"
+msgstr "插件缺失"
+
+msgid "Requires a Spine-enabled build"
+msgstr "需要支持 Spine 的版本"
+
+msgid "1 Theme"
+msgstr "1 个 Theme"
+
+msgid "1 character"
+msgstr "1 个角色"

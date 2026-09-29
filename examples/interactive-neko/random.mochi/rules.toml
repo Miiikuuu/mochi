@@ -1,0 +1,10 @@
+schema_version = 1
+seed = 42
+
+[[rules]]
+on = { event = "pointer_click", button = 1 }
+actions = [
+  { type = "play_animation", choices = ["wave_a", "wave_b", "wave_c"] },
+  # Restart even when this draw happens to pick the current clip again.
+  { type = "emit_event", name = "mochi.animation.restart", payload = {} },
+]

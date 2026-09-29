@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "files": [
+    "Cargo.toml",
+    "Cargo.lock",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "CODE_OF_CONDUCT.md",
+    "CHANGELOG.md",
+    "ASSET_LICENSES.md",
+    "scripts/build-package.py",
+    "scripts/release_inventory.py",
+    "scripts/npm_inventory.py",
+    "scripts/npm-license-check.py",
+    "scripts/purge-user-data.py",
+    "scripts/public-source.py",
+    "scripts/sign-staging.py",
+    "scripts/package-correctness-check.py",
+    "docs/INSTALLATION.md",
+    "docs/EXISTING_USER_MIGRATION.md",
+    "docs/PUBLIC_SOURCE.md",
+    "scripts/bundle_inventory.py",
+    "scripts/bundle-license-check.py",
+    "scripts/public-source-check.py",
+    "scripts/public-ci.sh",
+    "scripts/xvfb_support.py",
+    "scripts/public-manager-check.py",
+    "docs/RELEASE_CHECKLIST.md",
+    "tests/fixtures/animated.png",
+    "tests/fixtures/animated.webp",
+    "tests/fixtures/gray16.png",
+    "tests/fixtures/huge-header.png",
+    "tests/fixtures/rgb.jpg",
+    "tests/fixtures/rgba-lossy.webp",
+    "tests/fixtures/rgba.png",
+    "tests/fixtures/rgba.webp",
+    "packaging/public-ci.yml",
+    "examples/neko/neko.mochi/sprites/neko.png",
+    "examples/animated-neko/neko.mochi/sprites/frame-0.png",
+    "examples/animated-neko/neko.mochi/sprites/frame-1.png",
+    "examples/animated-neko/neko.mochi/sprites/frame-2.png",
+    "examples/interactive-neko/neko.mochi/sprites/frame-0.png",
+    "examples/interactive-neko/neko.mochi/sprites/frame-1.png",
+    "examples/interactive-neko/neko.mochi/sprites/frame-2.png",
+    "examples/interactive-neko/random.mochi/sprites/frame-0.png",
+    "examples/interactive-neko/random.mochi/sprites/frame-1.png",
+    "examples/interactive-neko/random.mochi/sprites/frame-2.png",
+    "scripts/sign-release.py",
+    "packaging/release-signing/public.pem",
+    "docs/RELEASE_SIGNING.md",
+    "docs/RELEASE_CHECKLIST-0.9.1-rc.1.md",
+    "scripts/release-signing-check.py"
+  ],
+  "trees": {
+    "crates": [
+      ".rs",
+      ".toml",
+      ".wgsl"
+    ],
+    "examples/desktop": [
+      ".rs",
+      ".toml"
+    ],
+    "platform/linux": [
+      ".py"
+    ],
+    "assets/manager": [
+      ".css",
+      ".json",
+      ".svg"
+    ],
+    "assets/icons": [
+      ".css",
+      ".svg"
+    ],
+    "assets/bubbles/default": [
+      ".css",
+      ".json",
+      ".svg",
+      ".md"
+    ],
+    "plugins": [
+      ".mjs",
+      ".cjs",
+      ".js",
+      ".json",
+      ".html",
+      ".css",
+      ".py"
+    ],
+    "packaging": [
+      ".json",
+      ".xml",
+      ".svg",
+      ".desktop",
+      ".service",
+      ".socket"
+    ],
+    "locale": [
+      ".po",
+      ".mo"
+    ],
+    "tests": [
+      ".rs",
+      ".toml",
+      ".md"
+    ],
+    "examples/neko/neko.mochi": [
+      ".toml"
+    ],
+    "examples/animated-neko/neko.mochi": [
+      ".toml"
+    ],
+    "examples/interactive-neko/neko.mochi": [
+      ".toml"
+    ],
+    "examples/interactive-neko/random.mochi": [
+      ".toml"
+    ],
+    "packaging/man": [
+      ".1"
+    ]
+  },
+  "extra_files": [
+    "packaging/postinst",
+    "packaging/prerm",
+    "packaging/postrm",
+    "packaging/copyright"
+  ],
+  "excluded_parts": [
+    "vendor",
+    "portraits",
+    "node_modules",
+    "test",
+    ".local",
+    "__pycache__",
+    ".git",
+    ".codex",
+    ".agents"
+  ],
+  "excluded_prefixes": [
+    "crates/mochi-spine",
+    "assets/brand",
+    "characters",
+    "assets/bubbles/lime-",
+    "tests/cases/spine.rs",
+    "tests/fixtures/migration"
+  ],
+  "reviewed_test_fixtures": {
+    "tests/fixtures/animated.png": "efafc333c9b42e34afc5c3a6064112d69129e841a1f4e81a9c9db0423baca74d",
+    "tests/fixtures/animated.webp": "a76fc9e4e157dc216eaebc382f5f7d545afd5a1c75c9015ec76ca6dc52902f78",
+    "tests/fixtures/gray16.png": "2135fc9f32956737c79e6e96f3355fcfaf5a8375c147d3115dae505ab1740dba",
+    "tests/fixtures/huge-header.png": "6f1b2328c96dc012a18828c83ba836d5e18bd7ca05585b7fd687fbc2497c8920",
+    "tests/fixtures/rgb.jpg": "41259c394f52dbd1d34e9c243cec332851a768d9a81ed827947709b83d1e9d6f",
+    "tests/fixtures/rgba-lossy.webp": "fa442d201487341cd75b1ce26fe8b5c39a69eccd9c52274f828d072b33fd26d7",
+    "tests/fixtures/rgba.png": "356f6f0d41f23b0a54eb1c09f6b5e9c15fc3891082e8b35fae86baebc57b94fa",
+    "tests/fixtures/rgba.webp": "1ac5ce1e7a8c83d328983b300582970318a40ab2dc98c4c6a579594314ee25c7",
+    "examples/neko/neko.mochi/sprites/neko.png": "7ac2abfce2be8b46dd9826d597d94edeefc1570b4a992622721b90a1850e3ee9",
+    "examples/animated-neko/neko.mochi/sprites/frame-0.png": "938507dd141ee78604989aacfba74358113c8fb8ae334bff3dc53e92963714a4",
+    "examples/animated-neko/neko.mochi/sprites/frame-1.png": "df7a1a35f75bfdef95d5a4ff09b8762426a19a84ec80d2298eae23f103b818ee",
+    "examples/animated-neko/neko.mochi/sprites/frame-2.png": "4e8e224e2634300cf97abba75d86dbb8c217541dd61ef2fab4ceb281d0df44d3",
+    "examples/interactive-neko/neko.mochi/sprites/frame-0.png": "938507dd141ee78604989aacfba74358113c8fb8ae334bff3dc53e92963714a4",
+    "examples/interactive-neko/neko.mochi/sprites/frame-1.png": "df7a1a35f75bfdef95d5a4ff09b8762426a19a84ec80d2298eae23f103b818ee",
+    "examples/interactive-neko/neko.mochi/sprites/frame-2.png": "4e8e224e2634300cf97abba75d86dbb8c217541dd61ef2fab4ceb281d0df44d3",
+    "examples/interactive-neko/random.mochi/sprites/frame-0.png": "938507dd141ee78604989aacfba74358113c8fb8ae334bff3dc53e92963714a4",
+    "examples/interactive-neko/random.mochi/sprites/frame-1.png": "df7a1a35f75bfdef95d5a4ff09b8762426a19a84ec80d2298eae23f103b818ee",
+    "examples/interactive-neko/random.mochi/sprites/frame-2.png": "4e8e224e2634300cf97abba75d86dbb8c217541dd61ef2fab4ceb281d0df44d3"
+  }
+}

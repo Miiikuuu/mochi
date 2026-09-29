@@ -1,0 +1,34 @@
+[package]
+name = "mochi-tests"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish = false
+
+[[test]]
+name = "architecture"
+path = "architecture.rs"
+
+[dev-dependencies]
+mochi-schema.workspace = true
+mochi-core.workspace = true
+mochi-runtime.workspace = true
+mochi-package = { workspace = true, features = [] }
+mochi-platform.workspace = true
+mochi-broker.workspace = true
+mochi-renderer-software = { workspace = true, features = ["gpu"] }
+mochi-host.workspace = true
+mochi-preview.workspace = true
+image.workspace = true
+toml.workspace = true
+sha2.workspace = true
+
+[target.'cfg(unix)'.dev-dependencies]
+rustix = { version = "1.1", features = ["fs"] }
+
+[features]
+gpu-test-hooks = ["mochi-renderer-software/gpu-test-hooks"]
+
+[lints]
+workspace = true

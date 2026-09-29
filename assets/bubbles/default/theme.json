@@ -1,0 +1,12 @@
+{
+  "format": "mochi-bubble-v1",
+  "id": "default",
+  "name": "Default",
+  "version": "1.0.0",
+  "i18n": {
+    "zh-CN": {
+      "name": "默认气泡"
+    }
+  },
+  "description": "Clean default speech and input bubbles."
+}

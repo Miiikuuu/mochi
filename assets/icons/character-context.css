@@ -1,0 +1,11 @@
+menu.mochi-character-context {
+  background: #fffaf4;
+  border: 1px solid #c9b9ad;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 5px 16px alpha(#392d3e, .2);
+}
+menu.mochi-character-context menuitem { color: #38445c; padding: 8px 14px; border-radius: 6px; }
+menu.mochi-character-context menuitem:hover { background: #e9edfc; }
+menu.mochi-character-context menuitem.mochi-character-remove { color: #9c464b; }
+menu.mochi-character-context menuitem.mochi-character-remove:hover { background: #fce8e4; }

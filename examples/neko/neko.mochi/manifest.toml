@@ -1,0 +1,19 @@
+schema_version = 1
+id = "mochi.neko"
+name = "Neko"
+version = "0.1.0"
+capabilities = []
+permissions = []
+
+[[components]]
+id = "mochi.behavior.wander"
+[components.config]
+file = "behavior.toml"
+
+[[components]]
+id = "mochi.appearance.sprite"
+[components.config]
+asset = "sprites/neko.png"
+width = 32.0
+height = 32.0
+

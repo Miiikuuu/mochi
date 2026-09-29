@@ -1,0 +1,20 @@
+.TH MOCHI-PURGE-DATA 1 "2026-09-28" "Mochi @VERSION@" "User Commands"
+.SH NAME
+mochi-purge-data \- explicitly remove the current user's Mochi data
+.SH SYNOPSIS
+.B mochi-purge-data
+.RB [ --purge ]
+.SH DESCRIPTION
+Without --purge, removes nothing. Stop Mochi before invoking this command.
+Normal package removal and reinstallation preserve user data.
+.SH OPTIONS
+.TP
+.B --purge
+Permanently remove this user's Mochi configuration, resources and state.
+Release signing identities are preserved in both
+$XDG_CONFIG_HOME/mochi-release-signing and the legacy
+$XDG_CONFIG_HOME/mochi/release-signing directory, including its public identity
+files. XDG_CONFIG_HOME defaults to ~/.config. Purge does not migrate keys.
+Run as the owning user, never with sudo.
+.SH SEE ALSO
+.BR mochi-manager (1)

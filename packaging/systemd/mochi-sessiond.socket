@@ -1,0 +1,11 @@
+[Unit]
+Description=Mochi conversation session socket
+
+[Socket]
+ListenStream=%t/mochi/session-v1.sock
+SocketMode=0600
+DirectoryMode=0700
+RemoveOnStop=true
+
+[Install]
+WantedBy=sockets.target

@@ -1,0 +1,24 @@
+[package]
+name = "mochi-renderer-software"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+mochi-raster-gpu = { path = "../mochi-raster-gpu", optional = true }
+mochi-core.workspace = true
+mochi-package.workspace = true
+mochi-platform.workspace = true
+mochi-spine = { workspace = true, optional = true, features = ["runtime"] }
+image.workspace = true
+
+[features]
+default = []
+spine = ["dep:mochi-spine", "mochi-package/spine"]
+gpu = ["dep:mochi-raster-gpu"]
+
+gpu-test-hooks = ["gpu", "mochi-raster-gpu/test-hooks"]
+
+[lints]
+workspace = true

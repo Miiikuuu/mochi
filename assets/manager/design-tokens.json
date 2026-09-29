@@ -1,0 +1,133 @@
+{
+  "colors": {
+    "bg": {
+      "light": "#ffffff",
+      "dark": "#202120"
+    },
+    "side": {
+      "light": "#f7f7f5",
+      "dark": "#191b19"
+    },
+    "soft": {
+      "light": "#f6f6f3",
+      "dark": "#292c29"
+    },
+    "hover": {
+      "light": "#edeee9",
+      "dark": "#353935"
+    },
+    "line": {
+      "light": "#e7e8e2",
+      "dark": "#3a3e39"
+    },
+    "text": {
+      "light": "#292d28",
+      "dark": "#ebede7"
+    },
+    "muted": {
+      "light": "#73796e",
+      "dark": "#a6afa2"
+    },
+    "ink": {
+      "light": "#323a2e",
+      "dark": "#e1e8dc"
+    },
+    "ink-text": {
+      "light": "#ffffff",
+      "dark": "#252d21"
+    },
+    "danger": {
+      "light": "#ac4138",
+      "dark": "#f2aaa2"
+    },
+    "live": {
+      "light": "#537146",
+      "dark": "#a4c792"
+    }
+  },
+  "layout": {
+    "sidebar": 76,
+    "sidebarCompact": 56,
+    "contentPadding": 32,
+    "cardGap": 16,
+    "minimumPreviewHeight": 584
+  },
+  "v2": {
+    "defaultWidth": 960,
+    "defaultHeight": 720,
+    "minimumWidth": 420,
+    "minimumHeight": 520,
+    "compactBreakpoint": 640,
+    "mediumBreakpoint": 760,
+    "railWidth": 68,
+    "railCompactWidth": 56,
+    "brandSize": 42,
+    "themeSidebarWidth": 210,
+    "themeSidebarMediumWidth": 178,
+    "previewPortraitWidth": 58,
+    "previewPortraitHeight": 160,
+    "previewPortraitCompactHeight": 120,
+    "spacing": {
+      "xs": 2,
+      "tiny": 3,
+      "sm": 4,
+      "gallery": 6,
+      "md": 8,
+      "card": 10,
+      "lg": 12,
+      "stageTop": 14,
+      "placeholderTop": 24
+    },
+    "preview": {
+      "compact": {
+        "baseline": 148,
+        "minWidth": 26,
+        "maxWidth": 56,
+        "minHeight": 48,
+        "maxHeight": 132
+      },
+      "regular": {
+        "baseline": 186,
+        "minWidth": 36,
+        "maxWidth": 90,
+        "minHeight": 64,
+        "maxHeight": 176
+      }
+    },
+    "library": {
+      "twoColumnWidth": 720,
+      "threeColumnWidth": 960,
+      "cardHeight": {
+        "characters": 240,
+        "bubbles": 260,
+        "plugins": 420
+      },
+      "overscanRows": 1
+    },
+    "settingsMaxWidth": 580,
+    "connectionsTwoColumnWidth": 960
+  },
+  "radius": {
+    "window": 14,
+    "card": 12,
+    "control": 8
+  },
+  "typography": {
+    "heading": 24,
+    "body": 14,
+    "cardCaption": 13,
+    "secondary": 12,
+    "weights": [
+      400,
+      500
+    ]
+  },
+  "portraitHeight": {
+    "grid": 108,
+    "detail": 188
+  },
+  "motion": {
+    "hoverMs": 140,
+    "respectReducedMotion": true
+  }
+}

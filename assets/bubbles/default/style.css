@@ -1,0 +1,33 @@
+/* Host-owned bubble appearance. Translation providers never control this CSS. */
+window.mochi-bubble { background: transparent; }
+.mochi-card { background: #f7f8f4; color: #29352f; border: 1px solid #b9cbbd; border-radius: 18px; padding: 16px; }
+.mochi-title { font-size: 15px; font-weight: bold; }
+.mochi-status { color: #617169; font-size: 12px; }
+.mochi-result, .mochi-result text { background: #edf3e9; color: #29352f; font-size: 15px; }
+.mochi-source, .mochi-source text { background: #ffffff; color: #39453d; font-size: 12px; }
+.mochi-card button { border-radius: 8px; box-shadow: none; text-shadow: none; }
+.mochi-primary { background: #235b46; color: white; border-color: #235b46; }
+.mochi-fast:checked { background: #235b46; color: white; border-color: #235b46; }
+/* A quiet management panel; the character bubble keeps its selected material. */
+.mochi-translation .mochi-card {
+  background: #fafafa; color: #30353a; border-color: #d4d8dc;
+  border-radius: 8px; padding: 12px;
+}
+.mochi-translation .mochi-title { font-size: 14px; font-weight: 600; }
+.mochi-translation .mochi-status { color: #737a80; }
+.mochi-translation .mochi-result, .mochi-translation .mochi-result text {
+  background: #fafafa; color: #30353a; font-size: 14px;
+}
+.mochi-translation .mochi-source, .mochi-translation .mochi-source text {
+  background: #f2f3f4; color: #30353a; font-size: 13px;
+}
+.mochi-translation .mochi-card button {
+  border-radius: 4px; min-height: 22px; padding: 3px 9px;
+}
+.mochi-translation .mochi-primary {
+  background: #f4f5f6; color: #374d5b; border-color: #d4d8dc;
+}
+.mochi-translation .mochi-fast:checked { background: transparent; color: #30353a; }
+.mochi-translation .mochi-card .mochi-icon-button {
+  min-width: 24px; min-height: 24px; padding: 3px; border-radius: 4px;
+}

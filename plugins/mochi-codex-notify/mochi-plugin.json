@@ -1,0 +1,21 @@
+{
+  "format": "mochi-plugin-v1",
+  "api_version": 1,
+  "id": "codex-notify",
+  "name": "Codex notifications",
+  "version": "0.1.0",
+  "description": "Notify you when a Codex task finishes.",
+  "runtime": "python3",
+  "entry": "panel.py",
+  "icon": "icon.svg",
+  "capabilities": [
+    "external_messages"
+  ],
+  "settings": [],
+  "i18n": {
+    "zh-CN": {
+      "name": "Codex 提醒",
+      "description": "指定一个 Codex 会话，在它完成当前任务时提醒一次。"
+    }
+  }
+}

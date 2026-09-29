@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "bundle_output": "ui/connection.bundle.html",
+  "bundle_sha256": "9f51c0728efc30591d85f20438cc4282c20dc91421109e264bf78009d1ff7fa4",
+  "packages": [
+    {
+      "package": "@modelcontextprotocol/client",
+      "version": "2.0.0",
+      "license": "MIT",
+      "source_files": [
+        "node_modules/@modelcontextprotocol/client/dist/cfWorkerProvider-BylNJ1R5.mjs",
+        "node_modules/@modelcontextprotocol/client/dist/chunk-Br0eD_fh.mjs",
+        "node_modules/@modelcontextprotocol/client/dist/dialects-BOhdv1Fc.mjs",
+        "node_modules/@modelcontextprotocol/client/dist/index.mjs",
+        "node_modules/@modelcontextprotocol/client/dist/shimsBrowser.mjs",
+        "node_modules/@modelcontextprotocol/client/dist/src-D_zzAWoS.mjs"
+      ],
+      "bundle_output": "ui/connection.bundle.html",
+      "license_files": [
+        {
+          "path": "ui/bundle-licenses/@modelcontextprotocol__client@2.0.0/LICENSE",
+          "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+        }
+      ]
+    },
+    {
+      "package": "@modelcontextprotocol/core",
+      "version": "2.0.0",
+      "license": "MIT",
+      "source_files": [
+        "node_modules/@modelcontextprotocol/core/dist/auth-CUe6YdwF.mjs",
+        "node_modules/@modelcontextprotocol/core/dist/index.mjs",
+        "node_modules/@modelcontextprotocol/core/dist/internal.mjs"
+      ],
+      "bundle_output": "ui/connection.bundle.html",
+      "license_files": [
+        {
+          "path": "ui/bundle-licenses/@modelcontextprotocol__core@2.0.0/LICENSE",
+          "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+        }
+      ]
+    },
+    {
+      "package": "@modelcontextprotocol/ext-apps",
+      "version": "2.0.0",
+      "license": "MIT",
+      "source_files": [
+        "node_modules/@modelcontextprotocol/ext-apps/dist/src/app.js"
+      ],
+      "bundle_output": "ui/connection.bundle.html",
+      "license_files": [
+        {
+          "path": "ui/bundle-licenses/@modelcontextprotocol__ext-apps@2.0.0/LICENSE",
+          "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+        }
+      ]
+    },
+    {
+      "package": "eventsource",
+      "version": "3.0.7",
+      "license": "MIT",
+      "source_files": [
+        "node_modules/eventsource/dist/index.js"
+      ],
+      "bundle_output": "ui/connection.bundle.html",
+      "license_files": [
+        {
+          "path": "ui/bundle-licenses/eventsource@3.0.7/LICENSE",
+          "sha256": "f683a72ffe6a9675b5507af22fe0f448d8c8de3da1e14f139d370a7e6a54a23e"
+        }
+      ]
+    },
+    {
+      "package": "eventsource-parser",
+      "version": "3.1.1",
+      "license": "MIT",
+      "source_files": [
+        "node_modules/eventsource-parser/dist/index.js",
+        "node_modules/eventsource-parser/dist/stream.js"
+      ],
+      "bundle_output": "ui/connection.bundle.html",
+      "license_files": [
+        {
+          "path": "ui/bundle-licenses/eventsource-parser@3.1.1/LICENSE",
+          "sha256": "835eb611a23301b27115ca1be9f754c876e643ceb7fe63049c6b50609a1cafeb"
+        }
+      ]
+    },
+    {
+      "package": "jose",
+      "version": "6.2.12",
+      "license": "MIT",
+      "source_files": [
+        "node_modules/jose/dist/webapi/index.js",
+        "node_modules/jose/dist/webapi/jwe/compact/decrypt.js",
+        "node_modules/jose/dist/webapi/jwe/compact/encrypt.js",
+        "node_modules/jose/dist/webapi/jwe/flattened/decrypt.js",
+        "node_modules/jose/dist/webapi/jwe/flattened/encrypt.js",
+        "node_modules/jose/dist/webapi/jwe/general/decrypt.js",
+        "node_modules/jose/dist/webapi/jwe/general/encrypt.js",
+        "node_modules/jose/dist/webapi/jwk/embedded.js",
+        "node_modules/jose/dist/webapi/jwk/thumbprint.js",
+        "node_modules/jose/dist/webapi/jwks/local.js",
+        "node_modules/jose/dist/webapi/jwks/remote.js",
+        "node_modules/jose/dist/webapi/jws/compact/sign.js",
+        "node_modules/jose/dist/webapi/jws/compact/verify.js",
+        "node_modules/jose/dist/webapi/jws/flattened/sign.js",
+        "node_modules/jose/dist/webapi/jws/flattened/verify.js",
+        "node_modules/jose/dist/webapi/jws/general/sign.js",
+        "node_modules/jose/dist/webapi/jws/general/verify.js",
+        "node_modules/jose/dist/webapi/jwt/decrypt.js",
+        "node_modules/jose/dist/webapi/jwt/encrypt.js",
+        "node_modules/jose/dist/webapi/jwt/sign.js",
+        "node_modules/jose/dist/webapi/jwt/unsecured.js",
+        "node_modules/jose/dist/webapi/jwt/verify.js",
+        "node_modules/jose/dist/webapi/key/export.js",
+        "node_modules/jose/dist/webapi/key/generate_key_pair.js",
+        "node_modules/jose/dist/webapi/key/generate_secret.js",
+        "node_modules/jose/dist/webapi/key/import.js",
+        "node_modules/jose/dist/webapi/lib/asn1.js",
+        "node_modules/jose/dist/webapi/lib/buffer_utils.js",
+        "node_modules/jose/dist/webapi/lib/content_encryption.js",
+        "node_modules/jose/dist/webapi/lib/deflate.js",
+        "node_modules/jose/dist/webapi/lib/jwe_algorithms.js",
+        "node_modules/jose/dist/webapi/lib/jwe_decrypt.js",
+        "node_modules/jose/dist/webapi/lib/jwe_encrypt.js",
+        "node_modules/jose/dist/webapi/lib/jws_algorithms.js",
+        "node_modules/jose/dist/webapi/lib/jws_sign.js",
+        "node_modules/jose/dist/webapi/lib/jws_verify.js",
+        "node_modules/jose/dist/webapi/lib/jwt_claims_set.js",
+        "node_modules/jose/dist/webapi/lib/key.js",
+        "node_modules/jose/dist/webapi/lib/key_algorithm.js",
+        "node_modules/jose/dist/webapi/lib/key_descriptor.js",
+        "node_modules/jose/dist/webapi/lib/key_management.js",
+        "node_modules/jose/dist/webapi/lib/validate.js",
+        "node_modules/jose/dist/webapi/util/base64url.js",
+        "node_modules/jose/dist/webapi/util/decode_jwt.js",
+        "node_modules/jose/dist/webapi/util/decode_protected_header.js",
+        "node_modules/jose/dist/webapi/util/errors.js"
+      ],
+      "bundle_output": "ui/connection.bundle.html",
+      "license_files": [
+        {
+          "path": "ui/bundle-licenses/jose@6.2.12/LICENSE.md",
+          "sha256": "8078b0829d6c3e9ecde2f003e1966e4cad3efc6e7a640efbab0313cc166b1af1"
+        }
+      ]
+    },
+    {
+      "package": "pkce-challenge",
+      "version": "5.0.1",
+      "license": "MIT",
+      "source_files": [
+        "node_modules/pkce-challenge/dist/index.browser.js"
+      ],
+      "bundle_output": "ui/connection.bundle.html",
+      "license_files": [
+        {
+          "path": "ui/bundle-licenses/pkce-challenge@5.0.1/LICENSE",
+          "sha256": "feb87a2e0c305de3464cc44077da5393c52d8ca6362d37427157d04ec6f4510d"
+        }
+      ]
+    },
+    {
+      "package": "zod",
+      "version": "4.6.5",
+      "license": "MIT",
+      "source_files": [
+        "node_modules/zod/v4/classic/checks.js",
+        "node_modules/zod/v4/classic/coerce.js",
+        "node_modules/zod/v4/classic/compat.js",
+        "node_modules/zod/v4/classic/deep-partial.js",
+        "node_modules/zod/v4/classic/errors.js",
+        "node_modules/zod/v4/classic/external.js",
+        "node_modules/zod/v4/classic/from-json-schema.js",
+        "node_modules/zod/v4/classic/in-out.js",
+        "node_modules/zod/v4/classic/index.js",
+        "node_modules/zod/v4/classic/iso.js",
+        "node_modules/zod/v4/classic/parse.js",
+        "node_modules/zod/v4/classic/schemas.js",
+        "node_modules/zod/v4/core/api.js",
+        "node_modules/zod/v4/core/checks.js",
+        "node_modules/zod/v4/core/compile.js",
+        "node_modules/zod/v4/core/core.js",
+        "node_modules/zod/v4/core/doc.js",
+        "node_modules/zod/v4/core/errors.js",
+        "node_modules/zod/v4/core/index.js",
+        "node_modules/zod/v4/core/json-schema-generator.js",
+        "node_modules/zod/v4/core/json-schema-processors.js",
+        "node_modules/zod/v4/core/json-schema.js",
+        "node_modules/zod/v4/core/memoizer.js",
+        "node_modules/zod/v4/core/parse.js",
+        "node_modules/zod/v4/core/regexes.js",
+        "node_modules/zod/v4/core/registries.js",
+        "node_modules/zod/v4/core/schemas.js",
+        "node_modules/zod/v4/core/to-json-schema.js",
+        "node_modules/zod/v4/core/util.js",
+        "node_modules/zod/v4/core/versions.js",
+        "node_modules/zod/v4/core/visit.js",
+        "node_modules/zod/v4/index.js",
+        "node_modules/zod/v4/locales/ar.js",
+        "node_modules/zod/v4/locales/az.js",
+        "node_modules/zod/v4/locales/be.js",
+        "node_modules/zod/v4/locales/bg.js",
+        "node_modules/zod/v4/locales/bn.js",
+        "node_modules/zod/v4/locales/ca.js",
+        "node_modules/zod/v4/locales/ckb.js",
+        "node_modules/zod/v4/locales/cs.js",
+        "node_modules/zod/v4/locales/da.js",
+        "node_modules/zod/v4/locales/de.js",
+        "node_modules/zod/v4/locales/el.js",
+        "node_modules/zod/v4/locales/en.js",
+        "node_modules/zod/v4/locales/eo.js",
+        "node_modules/zod/v4/locales/es.js",
+        "node_modules/zod/v4/locales/fa.js",
+        "node_modules/zod/v4/locales/fi.js",
+        "node_modules/zod/v4/locales/fr-CA.js",
+        "node_modules/zod/v4/locales/fr.js",
+        "node_modules/zod/v4/locales/gu.js",
+        "node_modules/zod/v4/locales/he.js",
+        "node_modules/zod/v4/locales/hi.js",
+        "node_modules/zod/v4/locales/hr.js",
+        "node_modules/zod/v4/locales/hu.js",
+        "node_modules/zod/v4/locales/hy.js",
+        "node_modules/zod/v4/locales/id.js",
+        "node_modules/zod/v4/locales/index.js",
+        "node_modules/zod/v4/locales/is.js",
+        "node_modules/zod/v4/locales/it.js",
+        "node_modules/zod/v4/locales/ja.js",
+        "node_modules/zod/v4/locales/ka.js",
+        "node_modules/zod/v4/locales/kh.js",
+        "node_modules/zod/v4/locales/km.js",
+        "node_modules/zod/v4/locales/kn.js",
+        "node_modules/zod/v4/locales/ko.js",
+        "node_modules/zod/v4/locales/lt.js",
+        "node_modules/zod/v4/locales/mk.js",
+        "node_modules/zod/v4/locales/ms.js",
+        "node_modules/zod/v4/locales/ne.js",
+        "node_modules/zod/v4/locales/nl.js",
+        "node_modules/zod/v4/locales/nn.js",
+        "node_modules/zod/v4/locales/no.js",
+        "node_modules/zod/v4/locales/ota.js",
+        "node_modules/zod/v4/locales/pl.js",
+        "node_modules/zod/v4/locales/ps.js",
+        "node_modules/zod/v4/locales/pt-BR.js",
+        "node_modules/zod/v4/locales/pt.js",
+        "node_modules/zod/v4/locales/ro.js",
+        "node_modules/zod/v4/locales/ru.js",
+        "node_modules/zod/v4/locales/sk.js",
+        "node_modules/zod/v4/locales/sl.js",
+        "node_modules/zod/v4/locales/sv.js",
+        "node_modules/zod/v4/locales/ta.js",
+        "node_modules/zod/v4/locales/tg.js",
+        "node_modules/zod/v4/locales/th.js",
+        "node_modules/zod/v4/locales/tk.js",
+        "node_modules/zod/v4/locales/tr.js",
+        "node_modules/zod/v4/locales/ua.js",
+        "node_modules/zod/v4/locales/uk.js",
+        "node_modules/zod/v4/locales/ur.js",
+        "node_modules/zod/v4/locales/uz.js",
+        "node_modules/zod/v4/locales/vi.js",
+        "node_modules/zod/v4/locales/yo.js",
+        "node_modules/zod/v4/locales/zh-CN.js",
+        "node_modules/zod/v4/locales/zh-TW.js"
+      ],
+      "bundle_output": "ui/connection.bundle.html",
+      "license_files": [
+        {
+          "path": "ui/bundle-licenses/zod@4.6.5/LICENSE",
+          "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+        }
+      ]
+    }
+  ]
+}

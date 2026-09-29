@@ -1,0 +1,19 @@
+{
+  "name": "mochi-chatgpt",
+  "version": "0.2.0",
+  "description": "Send ChatGPT replies to the local Mochi desktop character without another model call.",
+  "author": {
+    "name": "Mochi"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Mochi 桌宠",
+    "shortDescription": "Let Mochi display your ChatGPT replies.",
+    "longDescription": "Connect an existing ChatGPT conversation to the local Mochi character over MCP. ChatGPT supplies the text; Mochi presents it in the selected bubble material.",
+    "developerName": "Mochi",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "把这次回复交给 Mochi 桌宠显示。"
+  }
+}

@@ -1,0 +1,14 @@
+[package]
+name = "mochi-preview"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+mochi-core.workspace = true
+mochi-host.workspace = true
+mochi-renderer-software.workspace = true
+
+[lints]
+workspace = true

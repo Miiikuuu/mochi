@@ -1,0 +1,4 @@
+#!/bin/sh
+# Intentionally preserve all per-user Themes, Resources, settings and state,
+# including on dpkg purge. A user must explicitly invoke the data purge tool.
+exit 0

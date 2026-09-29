@@ -1,0 +1,23 @@
+/* Character-side plugin badges. Other plugins keep the shared porcelain style. */
+window.mochi-function-menu { background: transparent; }
+.mochi-function-button {
+  background: #fbfcff; color: #465b76;
+  border: 1px solid #b9c9df;
+  border-radius: 50%; padding: 0; min-width: 0; min-height: 0;
+  box-shadow: 0 2px 5px alpha(#253e63, .16);
+  text-shadow: none; outline: none;
+}
+.mochi-function-button:hover { background: #edf3ff; border-color: #859fc5; }
+.mochi-function-button:active { background: #dce8f9; border-color: #728db5; box-shadow: 0 1px 2px alpha(#253e63, .18); }
+.mochi-function-button.mochi-function-translation {
+  background: #fff0dd; border-color: #e8bb8f;
+  box-shadow: 0 2px 6px alpha(#835a61, .19);
+}
+.mochi-function-button.mochi-function-translation:hover { background: #ffe5c5; border-color: #d89970; }
+.mochi-function-button.mochi-function-translation:active { background: #fbd7ae; border-color: #c87d5f; }
+.mochi-function-button.mochi-function-chatgpt {
+  background: #eaedff; border-color: #aab4dc;
+  box-shadow: 0 2px 6px alpha(#465385, .2);
+}
+.mochi-function-button.mochi-function-chatgpt:hover { background: #dce3ff; border-color: #7e91c9; }
+.mochi-function-button.mochi-function-chatgpt:active { background: #cbd6fa; border-color: #687eb8; }
